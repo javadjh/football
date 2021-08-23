@@ -1,0 +1,13 @@
+{
+  "baseUrl": "https://football.iran.liara.run/api/v1",
+  "users": "/users",
+  "login": "/login",
+  "deleteUser": "/user/",
+  "upsertUser": "/upsert/user",
+  "singleUser": "/user/",
+  "asks":"/asks",
+  "deleteAsk": "/ask/",
+  "upsertAsk": "/upsert/aks",
+  "usersAnswers": "/usersanswers",
+  "usersAnswerTable": "/usersanswer/table/"
+}

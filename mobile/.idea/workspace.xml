@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1c710b5-e735-4c33-a88f-854b28bf6bc9" name="Default Changelist" comment="two page completed">
+      <change afterPath="$PROJECT_DIR$/app/screen/singleUsersAnswer/SingleUsersAnswer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/stateManager/action/UsersAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/stateManager/reducer/CanInsertReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/stateManager/reducer/SingleUsersAnswerReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/stateManager/reducer/TokenReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utilityComponent/BackBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utilityComponent/registerForPushNotifications .js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/APIConfig/AskService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/APIConfig/AskService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/APIConfig/UsersAnswerService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/APIConfig/UsersAnswerService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/APIConfig/axiosConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/APIConfig/axiosConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/APIConfig/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/APIConfig/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/APIConfig/userService.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/APIConfig/userService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/StackNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/StackNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screen/home/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screen/home/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screen/login/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screen/login/LoginScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screen/usersAnswer/InsertUsersAnswerScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screen/usersAnswer/InsertUsersAnswerScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/stateManager/action/UsersAnswerAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/stateManager/action/UsersAnswerAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/stateManager/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/stateManager/reducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wwuibGc02K1fzrmxOAqeaPwZ04" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\football\mobile\app" />
+      <recent name="D:\project\football\mobile" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1c710b5-e735-4c33-a88f-854b28bf6bc9" name="Default Changelist" comment="" />
+      <created>1629382099497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629382099497</updated>
+      <workItem from="1629382100709" duration="12845000" />
+      <workItem from="1629448600784" duration="10710000" />
+      <workItem from="1629469282707" duration="12350000" />
+      <workItem from="1629491257844" duration="8576000" />
+      <workItem from="1629564974189" duration="12002000" />
+      <workItem from="1629618922693" duration="13867000" />
+      <workItem from="1629714011573" duration="7977000" />
+      <workItem from="1629723445467" duration="1730000" />
+    </task>
+    <task id="LOCAL-00001" summary="two page completed">
+      <created>1629499532243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629499532243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="two page completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="two page completed" />
+  </component>
+</project>
