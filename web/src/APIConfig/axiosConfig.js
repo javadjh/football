@@ -9,7 +9,9 @@ axios.interceptors.response.use(null,error=>{
     return Promise.reject(error)
 })
 
-export const baseUrl = localStorage.getItem("ip")
+//export const baseUrl = localStorage.getItem("ip")
+
+export const baseUrl = '/api/v1'
 
 export default {
     post:axios.post,

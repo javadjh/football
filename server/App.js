@@ -64,7 +64,8 @@ app.get('/', (req, res) => {
 winston.add(new winston.transports.File({filename:"log.log"}))
 winston.add(
     new winston.transports.MongoDB({
-        db: 'mongodb://root:oLT18PiqZZOq802TPmTX4SVD@footballdb:27017/football',
+        // db: 'mongodb://root:oLT18PiqZZOq802TPmTX4SVD@footballdb:27017/football',
+        db: 'mongodb://root:oLT18PiqZZOq802TPmTX4SVD@db:27017/football',
         level: 'error',
     }),
 );

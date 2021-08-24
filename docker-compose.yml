@@ -1,0 +1,35 @@
+version: '3.8'
+
+services: 
+    api:
+        container_name: node-server-api
+        build: 
+            dockerfile: Dockerfile
+            context: './server'
+        volumes: 
+            - "./server:/app"
+    db:
+        container_name: footbal_mongodb
+        image: 'mongo:latest'
+        ports: 
+            - "27017:27017"
+        volumes: 
+            - "./mongo:/data/db"
+    web:
+        container_name: react-node-client
+        build: 
+            dockerfile: Dockerfile
+            context: './web'
+        volumes: 
+            - "./web:/app"
+    nginx:
+        container_name: proxy_server
+        depends_on:
+            - api
+            - web
+        restart: always
+        build: 
+            dockerfile: Dockerfile
+            context: './nginx'
+        ports: 
+            - 8080:80
