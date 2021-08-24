@@ -28,6 +28,12 @@ app.use(function (req, res, next) {
     res.header('token', ' 3.2.1')
     next()
 })
+
+app.use((req, res, next) => {
+    console.log('req:', req);
+    console.log('res:', res);
+    next();
+})
 app.use(function (req, res, next) {
 
     // Website you wish to allow to connect
@@ -50,9 +56,9 @@ app.use(function (req, res, next) {
 
 //routes
 app.use(log)
-app.use("/api/v1",require('./router/UsersRouter'))
-app.use("/api/v1",require('./router/AskRouter'))
-app.use("/api/v1",require('./router/UsersAnswerRouter'))
+app.use("/v1",require('./router/UsersRouter'))
+app.use("/v1",require('./router/AskRouter'))
+app.use("/v1",require('./router/UsersAnswerRouter'))
 
 
 
