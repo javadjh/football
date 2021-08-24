@@ -1,6 +1,7 @@
 const UserModel = require("../../../model/UserModel");
 const {insertUserValidator} = require("../../../validators/UsersValidator");
-const bcrypt = require('bcrypt')
+//const bcrypt = require('bcrypt')
+const argon2 = require('argon2');
 const {updateUserValidator} = require("../../../validators/UsersValidator");
 const { isValidObjectId } = require("mongoose")
 module.exports.insertUser = async (req,res)=>{
@@ -28,8 +29,9 @@ module.exports.insertUser = async (req,res)=>{
         let duUser = await UserModel.findOne({userName})
         if (duUser) return res.status(400).send({"error": "کاربر تکراری میباشد"})
 
-        const salt = await bcrypt.genSalt(10)
-        let passwordHashed = await bcrypt.hash(password, salt)
+        /*const salt = await bcrypt.genSalt(10)
+        let passwordHashed = await bcrypt.hash(password, salt)*/
+        const passwordHashed = await argon2.hash(password);
 
         let newUser = await new UserModel({
             userName,

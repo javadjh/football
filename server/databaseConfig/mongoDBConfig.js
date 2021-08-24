@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const connection = async ()=>{
-    const connect = await mongoose.connect("mongodb://root:oLT18PiqZZOq802TPmTX4SVD@footballdb:27017/football",{
+    const connect = await mongoose.connect("mongodb://root:oLT18PiqZZOq802TPmTX4SVD@db:27017/football",{
         useNewUrlParser: true,
         useUnifiedTopology:true,
         authSource:'admin'

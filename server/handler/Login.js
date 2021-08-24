@@ -1,5 +1,8 @@
 const UserModel = require("../model/UserModel");
+/*
 const bcrypt = require('bcrypt')
+*/
+const argon2 = require('argon2');
 const {genToken} = require("../utility/jwtUtility");
 const {loginValidator} = require("../validators/UsersValidator");
 module.exports.login = async (req,res)=>{
@@ -10,7 +13,8 @@ module.exports.login = async (req,res)=>{
     })
     console.log(user)
     if(!user) return res.status(400).send({"error":"پیدا نشد"})
-    const isPasswordMatch = await bcrypt.compare(req.body.password,user.password)
+    // const isPasswordMatch = await bcrypt.compare(req.body.password,user.password)
+    const isPasswordMatch = await argon2.verify(user.password, req.body.password)
     if(!isPasswordMatch) return res.status(400).send({"error":"نام کاربری یا رمز عبور اشتباه میباشد"})
     res.send(genToken({
         id:user._id,
