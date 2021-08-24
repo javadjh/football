@@ -1,10 +1,10 @@
-FROM node:14-slim
+FROM node
 
 WORKDIR /app
 
 COPY ./package.json ./
 
-# RUN npm i
+RUN npm install
 
 COPY . .
 

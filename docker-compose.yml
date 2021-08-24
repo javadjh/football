@@ -6,8 +6,8 @@ services:
         build: 
             dockerfile: Dockerfile
             context: './server'
-        volumes: 
-            - "./server:/app"
+        # volumes: 
+        #     - "./server:/app"
     db:
         container_name: footbal_mongodb
         image: 'mongo:latest'
